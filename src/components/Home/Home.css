@@ -1,0 +1,16 @@
+@media screen and (max-width:840px) {
+ .home-screen{
+    flex-direction: column;
+    gap:1em;
+ }
+ .home-img{
+    height: 12em;
+    width: 12em;
+ }
+ .home-content{
+    align-items: center;
+ }
+}
+.home-height{
+   height: fit-content;
+}

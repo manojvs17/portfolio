@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bricolage+Grotesque:opsz,wght@10..48,500&family=Poppins&display=swap');
+.font-poppins{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    width: 100vw;
+    margin: 0 auto;
+}
+@media screen and (max-width:840px) {
+    .nav-buttons-visible{
+        display: none;
+    }
+    .hamburger-icon-visible{
+        display: block;
+    }
+}
+.mobile-nav{
+    background:whitesmoke;
+}
+.mobile-nav>li{
+    width: 100%;
+    height: fit-content;
+    background: rgb(243, 240, 87);
+    border-radius: 1em;
+    padding: 0.2em;
+}
+.mobile-nav>li:hover{
+    background: rgb(100, 100, 202);
+    color: white;
+}

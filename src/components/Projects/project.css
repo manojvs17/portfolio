@@ -1,0 +1,12 @@
+@media screen and (max-width:840px) {
+   .project-cardlist{
+    flex-wrap: wrap;
+    gap:1em;
+    padding:1em;
+    flex-direction: column;
+   }
+   }
+   .projects-height{
+    height: fit-content;
+    padding:2em 0;
+}

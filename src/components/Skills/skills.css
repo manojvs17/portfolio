@@ -1,0 +1,17 @@
+@media screen and (max-width:840px) {
+    .skills-box{
+        flex-direction: column;
+        gap: 10px;
+        margin:0;
+    }
+    .skills-image{
+        display: none;
+    }
+    .skills-card{
+        padding: 1em;
+    }
+}
+.skills-height{
+    height: fit-content;
+    padding: 2em;
+}

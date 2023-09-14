@@ -1,0 +1,24 @@
+@media screen and (max-width:840px) {
+    .about-screen{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .about-image{
+        display: none;
+    }
+    .about-para{
+      margin: 0 auto;
+      padding: 0 1em;
+    }
+    .about-headline{
+        margin-top:0;
+    }
+    .about-content-padding{
+        padding: 0 3em;
+    }
+}
+.about-height{
+    height: fit-content;
+    padding: 2em;
+}
+
