@@ -15,49 +15,49 @@ const CardList = () => {
         {
           title: 'Website Project',
           imageSrc: website,
-          live:'',
+          live:'https://mnj-table-website.netlify.app/',
           github:'https://github.com/manojvs17/website-project.git'
         },
         {
             title: 'Hand Cricket Game',
             imageSrc: handcricket,
-            live:'',
+            live:'https://mnj-hand-cricket.netlify.app/',
             github:'https://github.com/manojvs17/hand-cricket.git'
           },
           {
             title: 'Analog Clock',
             imageSrc: analog,
-            live:'',
+            live:'https://mnj-analog-clock.netlify.app/',
             github:'https://github.com/manojvs17/analog-clock.git'
           },
           {
             title: 'Colorful Design',
             imageSrc: design,
-            live:'',
+            live:'https://mnj-design-1.netlify.app/',
             github:'https://github.com/manojvs17/circle-design.git'
           },
           {
             title: 'Retro Vibe',
             imageSrc: retro,
-            live:'',
+            live:'https://mnj-retro-vibe.netlify.app/',
             github:'https://github.com/manojvs17/retro-vibe.git'
           },
           {
             title: 'Stop Watch',
             imageSrc: stopwatch,
-            live:'',
+            live:'https://mnj-stop-watch.netlify.app/',
             github:'https://github.com/manojvs17/Stop-Watch.git'
           },
           {
             title: 'Dice Roll',
             imageSrc: dice,
-            live:'',
+            live:'https://mnj-dice-roll.netlify.app/',
             github:'https://github.com/manojvs17/dice-roll.git'
           },
           {
             title: 'Currency Converter',
             imageSrc: currencyconvert,
-            live:'',
+            live:'https://mnj-currency-converter.netlify.app/',
             github:'https://github.com/manojvs17/Currency-Converter.git'
           }
       ]);
@@ -70,7 +70,7 @@ const CardList = () => {
             <img src={info.imageSrc} alt="ProjectImage" className='h-52 w-52 self-center object-contain'/>
             <h1 className='text-2xl font-poppins text-center mt-1 font-bold'>{info.title}</h1>
             <div className='mt-2 flex gap-2 justify-center'>
-              <a href={info.live} target='_blank' rel="noopener noreferrer" className='border-2 border-black p-1 rounded-xl font-bold hover:bg-black hover:text-white cursor-not-allowed hidden' title='Currently Under Maintanence'>
+              <a href={info.live} target='_blank' rel="noopener noreferrer" className='border-2 border-black p-1 rounded-xl font-bold hover:bg-black hover:text-white' title='Currently Under Maintanence'>
                   Live Demo
               </a>
               <a href={info.github} target='_blank' rel="noopener noreferrer" className='border-2 border-black p-1 rounded-xl font-bold hover:bg-black hover:text-white'>
