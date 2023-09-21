@@ -24,7 +24,7 @@ const Home = () => {
   return (
     <>
     <section className='home-height flex justify-center items-center gap-20 py-20 home-screen' id='home'>
-     <img src={myImage} alt='MyImage' className='rounded-full home-img'></img>
+     <img src={myImage} alt='MyImage' className='rounded-full home-img blob-animation'></img>
      <div className='flex flex-col gap-2 justify-center home-content'>
         <p className='text-2xl font-mono'>Hello, I'm</p>
         <h1 className='text-6xl font-bold font-poppins'>Manoj V S</h1>

@@ -14,3 +14,30 @@
 .home-height{
    height: fit-content;
 }
+.blob-animation{
+   animation: bubble-top-bottom 5s linear infinite;
+}
+@keyframes bubble-top-bottom {
+   0%{border-radius: 25% 75% 25% 75% / 50% 50% 50% 50%  ;}
+   25%{border-radius:50% 50% 50% 50% / 50% 50% 50% 50%  ;}
+   50%{border-radius: 75% 25% 75% 25% / 50% 50% 50% 50% ;}
+   75%{border-radius:50% 50% 50% 50% / 50% 50% 50% 50% ;}
+   100%{border-radius: 25% 75% 25% 75% / 50% 50% 50% 50% ;}
+}
+
+
+.type-animation{
+      white-space: nowrap;
+      overflow: hidden; 
+      border-right: .15em solid black;
+      width: 19ch;
+      animation: typing 4s steps(20, end) infinite;
+}
+  @keyframes typing {
+      0% {
+          width: 0;
+      }
+      50%, 100% {
+          width: 19ch;
+      }
+  }
