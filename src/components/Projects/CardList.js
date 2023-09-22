@@ -7,6 +7,7 @@ import stopwatch from '../../assets/Projects Image/stopwatch.png';
 import dice from '../../assets/Projects Image/dice.png';
 import currencyconvert from '../../assets/Projects Image/currencyconvert.png';
 import website from '../../assets/Projects Image/website.png';
+import formValidate from '../../assets/Projects Image/form.png'
 
 import { useState } from 'react';
 
@@ -23,6 +24,12 @@ const CardList = () => {
             imageSrc: handcricket,
             live:'https://mnj-hand-cricket.netlify.app/',
             github:'https://github.com/manojvs17/hand-cricket.git'
+          },
+          {
+            title: 'Form Validation',
+            imageSrc: formValidate,
+            live:'https://manoj-form-validation.netlify.app/',
+            github:'https://github.com/manojvs17/form-validation'
           },
           {
             title: 'Analog Clock',
@@ -70,10 +77,10 @@ const CardList = () => {
             <img src={info.imageSrc} alt="ProjectImage" className='h-52 w-52 self-center object-contain'/>
             <h1 className='text-2xl font-poppins text-center mt-1 font-bold'>{info.title}</h1>
             <div className='mt-2 flex gap-2 justify-center'>
-              <a href={info.live} target='_blank' rel="noopener noreferrer" className='border-2 border-black p-1 rounded-xl font-bold hover:bg-black hover:text-white' title='Currently Under Maintanence'>
+              <a href={info.live} target='_blank' rel="noopener noreferrer" className='border-2 border-black p-1 rounded-xl font-bold hover:bg-black hover:text-white' title='Click Here to show live demo'>
                   Live Demo
               </a>
-              <a href={info.github} target='_blank' rel="noopener noreferrer" className='border-2 border-black p-1 rounded-xl font-bold hover:bg-black hover:text-white'>
+              <a href={info.github} target='_blank' rel="noopener noreferrer" className='border-2 border-black p-1 rounded-xl font-bold hover:bg-black hover:text-white' title='Click Here to get code'>
                   GitHub Link
               </a>
             </div>
