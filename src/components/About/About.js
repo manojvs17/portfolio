@@ -15,7 +15,7 @@ const About = () => {
             Aspiring Front-End Developer | Seeking Entry-Level Opportunities
             </p>
             <p className='font-poppins mt-5 text-lg about-para'>
-            As a passionate Front End Developer, I specialize in turning creative ideas into captivating online experiences.<br></br>With expertise in HTML, CSS,JavaScript and React JS, I craft websites that not only look great but also engage and delight users. <br></br>My commitment to innovation and staying at the cutting edge of web design ensures I deliver exceptional results.<br></br> <span className='font-bold bg-yellow-400'>Let's connect and discuss how I can elevate your digital projects to new heights!</span>
+            <p>As a passionate Front End Developer, I specialize in turning creative ideas into captivating online experiences.</p><br></br><p>With expertise in HTML, CSS,JavaScript and React JS, I craft websites that not only look great but also engage and delight users.</p> <br></br><p>My commitment to innovation and staying at the cutting edge of web design ensures I deliver exceptional results.</p><br></br> <span className='font-bold bg-yellow-400'>Let's connect and discuss how I can elevate your digital projects to new heights!</span>
             </p>
             <p className='text-center text-blue-600 text-lg mt-5'>
                 <span className='font-bold pr-2 font-poppins text-red-700'>Email:</span><span className='hover:underline cursor-pointer'>manojvs0170@gmail.com</span>
