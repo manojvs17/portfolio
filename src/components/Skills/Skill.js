@@ -4,7 +4,7 @@ import tickImage from '../../assets/tick2.png';
 import './skills.css';
 
 const Skill = () => {
-    let frontEndSkills=['HTML','CSS','JavaScript','TailWind CSS','React JS','Aptitude','Soft Skills'];
+    let frontEndSkills=['HTML','CSS','JavaScript','TailWind CSS','React JS'];
     let backEndSkills=['Git','GitHub']
   return (
     <section id='skills' className='skills-height flex flex-col justify-center items-center skill-screen'>
