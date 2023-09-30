@@ -16,8 +16,8 @@ const CardList = () => {
         {
           title: 'Website Project',
           imageSrc: website,
-          live:'https://mnj-table-website.netlify.app/',
-          github:'https://github.com/manojvs17/website-project.git'
+          live:'https://mnj-rental-website.netlify.app/',
+          github:'https://github.com/manojvs17/e-commerce-website.git'
         },
         {
             title: 'Hand Cricket Game',
