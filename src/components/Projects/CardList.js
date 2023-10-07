@@ -73,7 +73,7 @@ const CardList = () => {
     <>
     {imageData.map((info,index)=>(
         <li key={index} className='list-none'>
-        <div className='border-4 border-red-900 p-5 rounded-lg flex flex-col flex-wrap'>
+        <div className='border-4 border-red-900 p-5 rounded-lg flex flex-col flex-wrap hover:scale-[0.95] hover:border-[black] hover:shadow-xl hover:shadow-black transition duration-[250]'>
             <img src={info.imageSrc} alt="ProjectImage" className='h-52 w-52 self-center object-contain'/>
             <h1 className='text-2xl font-poppins text-center mt-1 font-bold'>{info.title}</h1>
             <div className='mt-2 flex gap-2 justify-center'>

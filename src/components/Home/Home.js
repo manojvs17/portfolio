@@ -6,15 +6,15 @@ import cssbattle from '../../assets/bat.png';
 import './Home.css';
 import { useState } from 'react';
 import resume from '../../assets/resume.pdf'
-// import { useTypewriter,Cursor } from 'react-simple-typewriter'
+import { useTypewriter } from 'react-simple-typewriter'
 
 const Home = () => {
-  // let [text]=useTypewriter({
-  //   words:['FrontEnd Developer','Football Player','Learner'],
-  //   loop:{},
-  //   typeSpeed:120,
-  //   deleteSpeed:80,
-  // });
+  let [text]=useTypewriter({
+    words:['FrontEnd Developer','Football Player'],
+    loop:{},
+    typeSpeed:120,
+    deleteSpeed:80,
+  });
   let [profileList] = useState([
     {title: 'LinkedIn Profile', url: 'https://www.linkedin.com/in/manoj-v-s-fb17',              src:linkedIn},
     {title: 'GitHub Profile',   url: 'https://github.com/manojvs17',                            src:gitHub},
@@ -28,12 +28,12 @@ const Home = () => {
      <div className='flex flex-col gap-2 justify-center home-content'>
         <p className='text-2xl font-mono'>Hello, I'm</p>
         <h1 className='text-6xl font-bold font-poppins'>Manoj V S</h1>
-        <p className='text-3xl font-bold font-mono mt-[.5em] h-[1em] text-[green]'>FrontEnd Developer</p>
+        <p className='text-[1.8em] font-bold font-mono mt-[.5em] h-[1em] text-[green]'>{text}</p>
         <div className='flex gap-10 mt-5'>
-          <a href={resume} target='_blank' rel="noopener noreferrer" className='border-4 border-black p-2 font-poppins font-bold rounded-xl hover:bg-zinc-800 hover:text-white'>
+          <a href={resume} target='_blank' rel="noopener noreferrer" className='font-poppins font-bold btn'>
             View CV
           </a>
-          <a href='#contact' className='border-4 border-black p-2 font-poppins font-bold rounded-xl hover:bg-zinc-800 hover:text-white'>
+          <a href='#contact' className='font-poppins font-bold btn'>
             Contact Info
           </a>
         </div>

@@ -41,3 +41,16 @@
           width: 19ch;
       }
   }
+
+  /* Buton Hover Effect */
+  .btn{
+   outline: 3px solid;
+   color: #000000;
+   padding: 12px 10px;
+   border-radius: 10px;
+   letter-spacing: 1px;
+}
+.btn:hover{
+   color: #ffffff;
+   background: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+}
