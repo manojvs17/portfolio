@@ -20,7 +20,7 @@ const Skill = () => {
                 </ul>
             </div>
             <div className='border-2 border-black p-10 rounded-3xl skills-card'>
-                <h1 className='text-center font-bold text-3xl'>Back End Development</h1>
+                <h1 className='text-center font-bold text-3xl'>Version Control</h1>
                 <ul className='mt-3 flex flex-col justify-center'>
                 {backEndSkills.map((Skills,index)=>(
                         <li key={index} className='flex gap-2 mt-2 ml-20 font-poppins text-xl'><img src={tickImage} alt='ListImage' className='h-6 w-6'></img>{Skills}</li>

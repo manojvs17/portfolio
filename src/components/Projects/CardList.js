@@ -7,7 +7,8 @@ import stopwatch from '../../assets/Projects Image/stopwatch.png';
 import dice from '../../assets/Projects Image/dice.png';
 import currencyconvert from '../../assets/Projects Image/currencyconvert.png';
 import website from '../../assets/Projects Image/website.png';
-import formValidate from '../../assets/Projects Image/form.png'
+import formValidate from '../../assets/Projects Image/form.png';
+import encrypt from '../../assets/Projects Image/encrypt.png';
 
 import { useState } from 'react';
 
@@ -24,6 +25,12 @@ const CardList = () => {
             imageSrc: handcricket,
             live:'https://mnj-hand-cricket.netlify.app/',
             github:'https://github.com/manojvs17/hand-cricket.git'
+          },
+          {
+            title: 'Encrypt Decrypt',
+            imageSrc: encrypt,
+            live:'https://mnj-encrypt-decrypt.netlify.app/',
+            github:'https://github.com/manojvs17/encrypt-decrypt.git'
           },
           {
             title: 'Form Validation',
