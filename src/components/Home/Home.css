@@ -11,6 +11,11 @@
     align-items: center;
  }
 }
+.home-img{
+   height: 25em;
+   width: 22em;
+   object-fit:cover;
+}
 .home-height{
    height: fit-content;
 }
